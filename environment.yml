@@ -1,0 +1,8 @@
+name: r-env
+channels:
+  - defaults
+dependencies:
+  - r-essentials
+  - r-base
+  - rstudio
+prefix: /home/$USER/anaconda3/envs/r-env

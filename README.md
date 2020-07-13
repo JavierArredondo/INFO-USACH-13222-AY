@@ -79,3 +79,19 @@ else{
 
 [Formato informe](https://www.overleaf.com/read/ftmpkkkhzcms)
 
+### Instalación de entorno mediante Anaconda
+
+Como requisito se debe tener instalado `Anaconda` y correr las siguientes instrucciones:
+
+```bash
+conda env create -f environment.yml
+```
+
+Luego activar el entorno virtual:
+
+```bash
+conda activate r-env
+```
+
+Con esto evitamos interactuar con R del sistema y sólo nos centramos en lo necesario para ejecutar este repositorio.
+
